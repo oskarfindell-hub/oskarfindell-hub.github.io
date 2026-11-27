@@ -1,0 +1,33 @@
+* {
+
+    box-sizing: border-box;
+    font-family: system-ui;
+    margin: 0;
+}
+
+header,
+main,
+footer,
+nav {
+    min-height: 10vh;
+    padding: 3%;
+    border: 1px solid black;
+
+}
+
+nav {
+    display: grid;
+}
+
+.card {
+    border: 1px solid black;
+}
+
+
+@media(min-width:650px) {
+    nav {
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+    }
+
+}
